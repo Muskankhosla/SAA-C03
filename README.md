@@ -1,22 +1,33 @@
 # SAA-C03
-Certification prep
-Sure! Here are comprehensive notes for preparing for the AWS Certified Solutions Architect – Associate (SAA-C03) exam, covering key tools and important points:
 ---
 # AWS Certified Solutions Architect – Associate (SAA-C03) Preparation Notes
+
 ## 1. **AWS Global Infrastructure**
-**Regions**: Geographically isolated areas that contain multiple Availability Zones.
-**Availability Zones (AZs)**: Data centers within a region, isolated from failures in other AZs.
-**Edge Locations**: Locations for content delivery, typically used by Amazon CloudFront.
+**Regions**:
+Geographically isolated areas that contain multiple Availability Zones.
+**Availability Zones (AZs)**: 
+Data centers within a region, isolated from failures in other AZs.
+**Edge Locations**:
+Locations for content delivery, typically used by Amazon CloudFront.
+
+
 ## 2. **Compute Services**
+
 **EC2 (Elastic Compute Cloud)**:
 Types of instances: General Purpose, Compute Optimized, Memory Optimized, Storage Optimized, Accelerated Computing.
 Key features: Auto Scaling, Elastic Load Balancing, EBS (Elastic Block Store).
 Pricing models: On-Demand, Reserved, Spot Instances, Savings Plans.
+
 **Lambda**: Serverless compute service. Key concepts: Functions, Event sources, Execution role.
+
 **Elastic Beanstalk**: Easy-to-use service for deploying and scaling web applications.
+
 **ECS (Elastic Container Service)** and **EKS (Elastic Kubernetes Service)**: Container management services.
+
 ## 3. **Storage Services**
+
 **S3 (Simple Storage Service)**:
+
 Storage classes: Standard, Intelligent-Tiering, Standard-IA, One Zone-IA, Glacier, Glacier Deep Archive.
 Key features: Versioning, Lifecycle policies, Cross-region replication, S3 Transfer Acceleration.
 **EBS (Elastic Block Store)**: Persistent block storage for EC2 instances.
